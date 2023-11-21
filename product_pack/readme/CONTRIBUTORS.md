@@ -2,6 +2,7 @@
   - Juan José Scarafía
   - Nicolas Mac Rouillon
   - Katherine Zaoral
+  - Bruno Zanotti
 - [NaN·TIC](http://www.nan-tic.com)
 - [Tecnativa](https://www.tecnativa.com):
   - Ernesto Tejeda
