@@ -57,7 +57,7 @@ class SaleOrderLine(models.Model):
                 if write:
                     existing_subline = first(
                         self.pack_child_line_ids.filtered(
-                            lambda child: child.product_id == subline.product_id
+                            lambda child, s=subline: child.product_id == s.product_id
                         )
                     )
                     # if subline already exists we update, if not we create
